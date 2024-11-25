@@ -1,0 +1,142 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: roboto;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.main-heading {
+  font-size: 28px;
+  margin-left: 10px;
+  align-self: flex-start;
+}
+.adding-appointments {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.title-label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  color: #b5b7c4;
+}
+.title-input {
+  font-size: 15px;
+  padding: 10px;
+  width: 80vw;
+  outline: none;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  align-self: flex-start;
+  margin: 10px;
+}
+.image {
+  display: none;
+}
+.upper-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.seperator {
+  font-size: 2px;
+  width: 100%;
+}
+.lower-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading {
+  justify-self: flex-start;
+  font-size: 28px;
+}
+.starred-button {
+  justify-self: flex-end;
+  color: #8b5cf6;
+  background-color: transparent;
+  border: #8b5cf6 1px solid;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.starred-btn {
+  justify-self: flex-end;
+  color: #fff;
+  background-color: #8b5cf6;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  margin: 20px;
+  cursor: pointer;
+  outline: none;
+}
+.app-list-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .app-list-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .image {
+    display: flex;
+    height: 250px;
+    width: 300px;
+  }
+  .upper-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title-input {
+    width: 30vw;
+  }
+  .seperator {
+    width: 100%;
+  }
+}
